@@ -1,0 +1,19 @@
+{
+  "name": "assignment_css_garden_of_good_and_evil",
+  "version": "1.0.0",
+  "description": "Create a CSS garden that adapts to your whims.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/promilo/assignment_css_garden_of_good_and_evil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/promilo/assignment_css_garden_of_good_and_evil/issues"
+  },
+  "homepage": "https://github.com/promilo/assignment_css_garden_of_good_and_evil#readme"
+}
