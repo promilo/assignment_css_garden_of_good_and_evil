@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+  <h1> Form </h1>
+</head>
+<body>
+
+    <div class="container">
+      Change the style!
+      <form class="form" action="/update" method="post">
+        <label> Good or Evil? </label>
+        <input type="radio" name="goodorevil" value="good">
+        <input type="radio" name="goodorevil" value = "evil">
+        <br>
+        <label> FavFood </label>
+        <input type="text" name="food" value="favfood">
+        <br>
+        <label> Fav type food </label>
+        <select class="" name="cuisine">
+         <option value="indian">indian</option>
+         <option value="chinese">chinese</option>
+         <option value="mexican">mexican</option>
+        </select>
+        <br>
+        <label> Insanity level <label>
+          <input type="range" name="insanity" min="1"max="10" step="1" value="insanity">
+        <input type="submit" value="submit">
+      </form>
+
+      {{{body}}}
+    </div>
+</html>
